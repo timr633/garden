@@ -1,0 +1,109 @@
+body {
+    
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+
+    background-image: url('gg.jpg');
+    padding: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    color: black;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    /*CSS Smotth Scroll*/
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 3em;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 2em;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+        .navbar ul li {
+            margin: 0 1rem;
+            padding: 1rem;
+        }
+
+            .navbar ul li a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #f4f4f4;
+            }
+
+                .navbar ul li a:hover {
+                    color: skyblue;
+                }
+
+
+
+
+
+#home {
+    padding: 2em;
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#about {
+    padding: 2em;
+    
+}
+
+#service {
+    padding: 2em;
+    
+}
+
+
+
+#portfolio {
+    padding: 2em;
+    
+}
+
+
+#footer {
+    padding: 2em;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: .5em;
+    width: 100%;
+    height: auto;
+}
