@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-family: sans-serif;
     background: black;
-
     background-image: url('gg.jpg');
     padding: 2em;
     background-position: center;
@@ -11,8 +10,7 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-
-    color: black;
+    color: lime;
     line-height: 1;
     text-align: center;
     justify-content: center;
@@ -25,13 +23,13 @@ body {
 h1, h2, h3 {
     margin: 0;
     padding: 1em 0;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 p {
     margin: 0;
     padding: 1em 0;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .navbar {
@@ -71,39 +69,33 @@ p {
 
 
 #home {
-    padding: 2em;
-    background-image: url('');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
+    padding: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 #about {
-    padding: 2em;
+    padding: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     
 }
-
-#service {
-    padding: 2em;
-    
-}
-
 
 
 #portfolio {
-    padding: 2em;
+    padding: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     
 }
 
 
 #footer {
     padding: 2em;
-    background: black;
-    color: white;
+    color: lime;
     text-align: center;
-    font-size: .5em;
+    font-size: .75em;
     width: 100%;
     height: auto;
 }
+
